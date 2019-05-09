@@ -1,0 +1,42 @@
+.images{
+    position: relative;
+    width: 921px;
+    height: 532px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.images img{
+    width: 100%;
+    box-shadow: 0 5px 7px #999c9c;
+}
+.denglu{
+    position: absolute;
+    width: 128px;
+    height: 33px;
+    border: 2px solid #898888;
+    bottom: 143px;
+    left: 413px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.clickenter{
+    width: 530px;
+    height: 68px;
+    border-radius: 68px;
+    background-color: #68c3a7;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 68px;
+    margin: 0 auto;
+    box-shadow: 0 2px 3px #e0e1e1;
+    cursor: pointer;
+}
+.fileout img{
+    width: 26px;
+}
+.dropname{
+    box-shadow: 0 1px 5px #c5c8c7;
+}

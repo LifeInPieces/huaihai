@@ -1,0 +1,226 @@
+.navbarbtn,
+.indexPage,
+.infoRight{
+    display: inline-block;
+}
+.news{
+    width: 260px;
+}
+.usernameinfo,
+.dropname_info img{
+    border-radius: 50%; 
+}
+.news .usernameinfo{
+    width: 56px;
+    margin-top: 12px;
+}
+.profile img{
+    width:200px;
+}
+.dropname{
+    width: 210px;
+    height: 244px;
+    background-color: #fff;
+    padding: 0 !important;
+    margin: 25px 0 0;
+    box-shadow: 0 3px 5px #c5c8c7;
+}
+.dropname_info{
+    width: 100%;
+    height: 82px;
+    background-color: #5daf95;
+    color: #fff;
+}
+.infoRight{
+    margin: 20px 0 0 15px;
+    height: 100%;
+    font-size: 14px;
+}
+.dropname_info img{
+    width: 42px;
+    vertical-align: baseline;
+    margin-left: 20px;
+}
+.password,
+.outline{
+    font-size: 16px;
+    color: #529c84;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 15px;
+}
+.password{
+    margin-top: 30px;
+}
+.dropdown{
+    top: 6px;
+    left: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.caret{
+    margin-left: 10px;
+    color: #5eb298;
+    font-size: 20px;
+}
+.password .glyphicon,
+.outline .glyphicon{
+    top: 5px;
+    right: 10px;
+    margin-left: 15px;
+    font-size: 21px;
+}
+.fileout{
+    float: right;
+    line-height: 62px;
+    margin: 3px 45px 0 0;
+}
+.indexPage{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+.headerTotal img{
+    width: 25px;
+}
+.headerTotal span{
+    font-size: 18px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.content{
+    margin-top: 50px;
+}
+.cicle span{
+    display: inline-block;
+    width: 297px;
+    height: 39px;
+    border: 1px solid #a0a0a0;
+    border-radius: 39px;
+    text-align: center;
+    line-height: 39px;
+    margin-left: 34px;
+}
+
+/* 修改密码 */
+.outline_time{
+    position: absolute;
+    width: 747px;
+    height: 461px;
+    top:100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background-color: #fff;
+}
+.mengban_over {
+    position: absolute;
+    top: 0;
+    background-color: #6f7171;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: none;
+}
+.submit{
+    width: 600px;
+    margin: 0 auto;
+}
+.submit input{
+    width: 600px;
+    height: 46px;
+    border: 1px solid #e1e1e1;
+    outline: none;
+}
+.xiugai{
+    margin: 53px 0;
+    color: #121212;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+}
+.formSubmit{
+    height: 44px;
+    background-color: #65bca2;
+    border-radius: 44px;
+    color: #fff;
+    font-size: 18px;
+}
+.titleico{
+    width: 21px;
+    margin-right: 20px;
+}
+.suopassword,
+.openoutline{
+    margin: -2px 10px 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.suopassword img{
+    width: 19px;
+}
+.caret {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+.tr_header{
+    text-align: center;
+}
+.row{
+    margin-left: 5px;
+}
+.glyphicon-menu-down{
+    font-size: 10px;
+    color: #a9aaa9;
+    margin-left: 26px;
+    top: 0;
+}
+.btn-default:hover{
+  background-color: none;
+}
+.btn-default:hover{
+    background-color: transparent;
+}
+
+.notnews{
+    font-size: 24px;
+    color: #717171;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.duyude{
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 5px #e1e5e4;
+    margin: 0 -30px;
+}
+.tipnews{
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+.navicon{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <title>淮海工学院</title>
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/assets/admin.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/look.css">
+  <link href="images/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+  <div class="main">
+    <nav class="navbar">
+     <span class="navbarbtn">
+        <a class="navicon navbar-btn glyphicon glyphicon-menu-hamburger"></a>
+        <span class="indexPage">首页/资源查看</span>
+     </span>
+      <ul class="nav navbar-nav navbar-right">
+        <div class="news">
+          <img src="upload/1.png" class="usernameinfo">
+          <span class="dropdown">
+            <span id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">头像
+                <span class="caret"></span>
+            </span>
+            <ul class="dropdown-menu dropdown-menu-right dropname" aria-labelledby="dropdownMenu1">
+              <li class="dropname_info">
+                <img src="upload/1.png">
+                <span class="infoRight">
+                  <p>头像</p>
+                  <p>账号:123456789</p>
+                </span>
+              </li>
+              <li class="password">
+                <a href="#" class="rever_password">
+                    <span class="suopassword"><img src="images/suo.png"></span>修改密码</a>
+              </li>
+              <li class="outline">
+                <a href="login.html" id="logout">
+                  <span class="glyphicon glyphicon-off"></span>退出登录
+                </a>
+              </li>
+            </ul>
+          </span>
+          <li class="fileout">
+            <a href="login.html">
+              <img src="images/outline.png">
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <div class="container-fluid content">
+        <div class="page-title">
+         <div class="headerTotal cicle">
+           <span>土木工程学院虚拟仿真项目<i class="glyphicon glyphicon-menu-down"></i></span>
+         </div>
+         <div class="container-fluid content">
+                <div class="row">
+                    <div class="col-md-9">
+                            <table class="table table-bordered">
+                                <tr class="active tr_header">
+                                    <td>序号</td>
+                                    <td>文件名</td>
+                                    <td>上传者</td>
+                                    <td>备注</td>
+                                    <td>上传时间</td>
+                                    <td>操作</td>
+                                </tr>
+                                <tr class="tr_header">
+                                    <td>1</td>
+                                    <td>黄家驹离离.pdf</td>
+                                    <td>*******</td>
+                                    <td>*******</td>
+                                    <td>2019-05-06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14：45:12</td>
+                                    <td class="cion_splice">
+                                        <a class="download">下载</a>
+                                    </td>
+                                </tr>
+                                <tr class="tr_header">
+                                  <td>1</td>
+                                  <td>黄家驹离离.pdf</td>
+                                  <td>*******</td>
+                                  <td>*******</td>
+                                  <td>2019-05-06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14：45:12</td>
+                                  <td class="cion_splice">
+                                      <a class="download">下载</a>
+                                  </td>
+                              </tr>
+                              <tr class="tr_header">
+                                <td>1</td>
+                                <td>黄家驹离离.pdf</td>
+                                <td>*******</td>
+                                <td>*******</td>
+                                <td>2019-05-06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14：45:12</td>
+                                <td class="cion_splice">
+                                    <a class="download">下载</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <ul class="tr_header numberpage">
+                          <li>&lt;</li>
+                          <li class="numpage"><input type="text" value="1"></li>
+                          <li class="hidepage">/3</li>
+                          <li>&gt;</li>
+                        </ul>
+                    </div>
+                </div>
+         </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="aside">
+      <div class="profile">
+        <img src="images/logo.png">
+      </div>
+      <ul class="nav">
+        <li>
+          <a href="index.html">
+            <img src="images/info.png" class="titleico">
+            项目介绍
+          </a>
+        </li>
+        <li>
+          <a href="enter.html">
+              <img src="images/home.png" class="titleico">
+            进入实验
+          </a>
+        </li>
+        <li class="active">
+          <a href="look.html">
+              <img src="images/file.png" class="titleico">
+            资源查看</a>
+        </li>
+        <li>
+          <a href="score.html">
+              <img src="images/look.png" class="titleico">
+            查看成绩</a>
+        </li>
+      </ul>
+  </div>
+  <div class="mengban_over"></div>
+  <div class="form_show outline_time" style="display:none">
+      <form class="submit">
+        <i class="glyphicon glyphicon-remove pull-right errorHide"></i>
+          <p class="xiugai">修改密码</p>
+          <div class="form-group">
+              <input type="text" class="form-control" id="username" placeholder="请输入账号">
+          </div>
+          <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="请输入密码">
+              <p class="tipnews">密码最多为21位字符</p>
+          </div>
+          <div class="form-group">
+              <input type="button" value="提交" class="formSubmit">
+          </div>
+      </form>
+  </div>
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/bootstrap/bootstrap.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.download{
+    display: inline-block;
+    width: 32px;
+    border-bottom: 1px solid #2e926d;
+    color: #77b199;
+    cursor: pointer;
+  }
+.numberpage li{
+    display: inline-block;
+    width: 44px;
+    height: 42px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.numberpage .numpage{
+    width: 71px;
+    margin-left: 10px;
+    border: none;
+}
+.numberpage .numpage input{
+    width: 71px;
+    height: 42px;
+    margin-top: -2px;
+    outline: none;
+    text-align: center;
+    /* margin-left: 10px; */
+}
+.numberpage .hidepage{
+    border: none;
+    text-align: left;
+}
